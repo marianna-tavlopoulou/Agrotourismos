@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Agrotourismo User Reg</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Lato"
+	rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat"
+	rel="stylesheet" type="text/css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="styles/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+	<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Registration Form</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="username">Username</label>  
+  <div class="col-md-4">
+  <input name="username" class="form-control input-md" id="username" type="text" placeholder="your username">
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="password">Password</label>
+  <div class="col-md-4">
+    <input name="passwordinput" class="form-control input-md" id="password" type="password" placeholder="*****">
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="name">Name</label>  
+  <div class="col-md-4">
+  <input name="name" class="form-control input-md" id="name" type="text" placeholder="your name">
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="surname">Surname</label>  
+  <div class="col-md-4">
+  <input name="surname" class="form-control input-md" id="surname" type="text" placeholder="your surname">
+  </div>
+</div>
+
+<!-- Multiple Radios (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" >Gender</label>
+  <div class="col-md-4"> 
+    <label class="radio-inline" for="radios-female">
+      <input name="gender" id="radios-female" type="radio" checked="checked" value="female">
+      Female
+    </label> 
+    <label class="radio-inline" for="radios-male">
+      <input name="gender" id="radios-male" type="radio" value="male">
+      Male
+    </label> 
+  </div>
+</div>
+
+<div class="form-group">
+    <label class="col-xs-2 control-label">Birthday</label>
+    <div class="col-xs-10">
+        <div class="form-inline">
+            <div class="form-group">
+                <input type="text" name="day" class="form-control" placeholder="day"/>
+            </div>
+            <div class="form-group">
+                <input type="text" name="month" class="form-control" placeholder="month"/>
+            </div>
+            <div class="form-group">
+                <input type="text" name="year" class="form-control" placeholder="year"/>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Button (Double) -->
+<div class="form-group">
+<div class=" offset-4  col-md-8">
+
+    <button name="register" class="btn btn-primary" id="register"><span class="glyphicon glyphicon-thumbs-up"></span> Register</button>
+    <button name="cancel" class="btn btn-default" id="cancel">Cancel</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+</body>
+</html>
